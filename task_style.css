@@ -1,0 +1,53 @@
+body {
+    font-family: Verdana ;
+}
+.container{
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+.alert-head{
+    margin-bottom: 10px;
+}
+.info-head{
+    float: right;
+    margin-right: 5px;
+}
+.info-head a {   
+    margin-left: 40px;
+    text-decoration: none;
+}
+h1 { font-size: 28px;}
+#author{
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    z-index: 98;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    color: black;
+    font-size: 12px;
+}
+#user{
+    position: fixed;
+    bottom: 15px;
+    left: 25px;
+    padding: 5px 10px 5px 10px;
+    z-index: 99;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+}
+#user a {
+    color: white;
+    text-decoration-line: none;
+}
+#author a {
+    color: black;
+    text-decoration-line: none;
+}
+.btn { margin: 0 10px 10px 0; }
+#last_name { display: none; }
+label[for=last_name] { display: none; }
